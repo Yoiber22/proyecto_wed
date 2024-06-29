@@ -420,7 +420,7 @@ h3{
 
 .wrap-img_two-column img {
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 5%;
 }
 
@@ -459,7 +459,7 @@ input[type="submit"]{
 
 .form img{
     width: 80%;
-    height: 80%;
+    height: auto;
     border-radius: 5%;
 }
 
