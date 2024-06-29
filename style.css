@@ -47,6 +47,19 @@ h3{
     font-size: 2.2rem;
 }
 
+.menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
 /** Header **/
 
 .header-landing{
@@ -87,11 +100,11 @@ h3{
   margin-bottom: 2rem;
 }
 
-/** Hero Section Zapato**/
+/** Hero Section Zapatos**/
 
-.hero-section-zapato{
+.hero-section-zapatos{
     height: 90vh;
-    background: url(img/backgroumd_zapatos.png);
+    background: url(img/background_zapatos.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,13 +114,61 @@ h3{
     align-items: center;
 }
 
-.wrap-hero-section-zapato{
+.wrap-hero-section-zapatos{
     max-width: 600px;
     color: #fff;
     padding: 15%;
 }
 
-.wrap-hero-section-zapato h1 {
+.wrap-hero-section-zapatos h1 {
+  margin-bottom: 2rem;
+}
+
+/** Hero Section Camisetas**/
+
+.hero-section-camisetas{
+    height: 90vh;
+    background: url(img/background_camisetas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-hero-section-camisetas{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%;
+}
+
+.wrap-hero-section-camisetas h1 {
+  margin-bottom: 2rem;
+}
+
+/** Hero Section Pantalones**/
+
+.hero-section-pantalones{
+    height: 90vh;
+    background: url(img/background_pantalones.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-hero-section-pantalones{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%;
+}
+
+.wrap-hero-section-pantalones h1 {
   margin-bottom: 2rem;
 }
 
@@ -130,6 +191,30 @@ h3{
     width: 200px;
     padding: 1rem 2rem;
     filter: grayscale(1);
+}
+
+/** Hero Section Sudaderas**/
+
+.hero-section-sudaderas{
+    height: 90vh;
+    background: url(img/background_sudaderas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-hero-section-sudaderas{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%;
+}
+
+.wrap-hero-section-sudaderas h1 {
+  margin-bottom: 2rem;
 }
 
 /** Wrap Title **/
@@ -184,8 +269,8 @@ h3{
 }
 
 .item-producto-section img{
-    width: 280px;
-    height: 360px;
+    width: 300px;
+    height: 300px;
     border-radius: 5%;
 }
 
